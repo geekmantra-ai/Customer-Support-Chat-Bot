@@ -1,0 +1,16 @@
+{
+  "name": "company-knowledge-agent",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2025-05-05",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "kv_namespaces": [
+    {
+      "binding": "KNOWLEDGE_STORE",
+      "id": "07733f016748454197d93c31822e66cf"
+    }
+  ]
+}
